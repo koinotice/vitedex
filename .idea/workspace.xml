@@ -2,36 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7812fea6-1f77-4df9-ac25-3a73ff9bce23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ethwatcher/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ethwatcher/GatewayVote.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ethwatcher/GatewayVote.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ethwatcher/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ethwatcher/btec.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ethwatcher/config.toml.t" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ethwatcher/constant.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ethwatcher/ethclient.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ethwatcher/log.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ethwatcher/remotesign.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ethwatcher/structs.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ethwatcher/utils.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/block/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/block/trans.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/blocktracker/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/dex/blocktracker.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/dex/blocktracker_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/dex/cmd/blocktracker/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/watcher/block.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ww.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leven.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/dex/address.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/dex/address.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/models/wallet.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/models/wallet.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/watcher/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/server/watcher/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/postgres/pg_stat_tmp/db_0.stat" beforeDir="false" afterPath="$PROJECT_DIR$/data/postgres/pg_stat_tmp/db_0.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/postgres/pg_stat_tmp/db_13067.stat" beforeDir="false" afterPath="$PROJECT_DIR$/data/postgres/pg_stat_tmp/db_13067.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/postgres/pg_stat_tmp/db_16384.stat" beforeDir="false" afterPath="$PROJECT_DIR$/data/postgres/pg_stat_tmp/db_16384.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/postgres/pg_stat_tmp/global.stat" beforeDir="false" afterPath="$PROJECT_DIR$/data/postgres/pg_stat_tmp/global.stat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ethwatcher/ethclient.go" beforeDir="false" afterPath="$PROJECT_DIR$/ethwatcher/ethclient.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nonceStore/000010.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nonceStore/CURRENT" beforeDir="false" afterPath="$PROJECT_DIR$/nonceStore/CURRENT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nonceStore/CURRENT.bak" beforeDir="false" afterPath="$PROJECT_DIR$/nonceStore/CURRENT.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nonceStore/LOG" beforeDir="false" afterPath="$PROJECT_DIR$/nonceStore/LOG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nonceStore/MANIFEST-000011" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ww.go" beforeDir="false" afterPath="$PROJECT_DIR$/ww.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ww.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="425">
+              <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
               <folding>
                 <element signature="e#14#74#0" expanded="true" />
               </folding>
@@ -86,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ethwatcher/ethclient.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="156" column="34" selection-start-line="156" selection-start-column="34" selection-end-line="156" selection-end-column="34" />
+            <state relative-caret-position="67">
+              <caret line="1084" column="30" selection-start-line="1084" selection-start-column="30" selection-end-line="1084" selection-end-column="30" />
               <folding>
                 <element signature="e#878#1620#0" expanded="true" />
               </folding>
@@ -99,10 +80,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ethwatcher/config.toml.t">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ethwatcher/btec.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#20#98#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ethwatcher/constant.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ethwatcher/GatewayVote.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5119" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ethwatcher/log.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding>
+                <element signature="e#20#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ethwatcher/remotesign.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1621">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ethwatcher/structs.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="15" />
+            <state relative-caret-position="195">
+              <caret line="23" column="14" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="14" />
               <folding>
                 <element signature="e#20#85#0" expanded="true" />
               </folding>
@@ -113,8 +151,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ethwatcher/utils.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
+            <state relative-caret-position="-26">
               <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ethwatcher/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="182">
+                <caret line="226" column="14" selection-start-line="226" selection-start-column="4" selection-end-line="226" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -131,8 +181,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/math/big/int.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="191">
+              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
               <folding>
                 <element signature="e#231#278#0" expanded="true" />
               </folding>
@@ -181,12 +231,14 @@
       <find>wallets</find>
       <find>Review</find>
       <find>StartWatchBlock</find>
-      <find>StartWatch</find>
       <find>big.Int</find>
       <find>bigIntNumber</find>
-      <find>BlockNumber</find>
       <find>currentHeight</find>
       <find>rpcHeader</find>
+      <find>ReviewBlock</find>
+      <find>PushEvent</find>
+      <find>BlockNumber</find>
+      <find>StartWatch</find>
     </findStrings>
     <replaceStrings>
       <replace>keven/leven</replace>
@@ -232,8 +284,8 @@
         <option value="$PROJECT_DIR$/server/dex/address.go" />
         <option value="$PROJECT_DIR$/server/models/wallet.go" />
         <option value="$PROJECT_DIR$/server/watcher/block.go" />
-        <option value="$PROJECT_DIR$/ethwatcher/ethclient.go" />
         <option value="$PROJECT_DIR$/ww.go" />
+        <option value="$PROJECT_DIR$/ethwatcher/ethclient.go" />
       </list>
     </option>
   </component>
@@ -345,7 +397,7 @@
     <frame x="35" y="23" width="1245" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10556941" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.024937656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -374,34 +426,6 @@
     <proxy>https://goproxy.io</proxy>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/signal.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/genv/common/kv_store.go" />
-    <entry file="file://$PROJECT_DIR$/server/connection/redis.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/models/balance.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="32" selection-start-line="32" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/jinzhu/gorm/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4039">
-          <caret line="443" column="13" selection-start-line="443" selection-start-column="13" selection-end-line="443" selection-end-column="13" />
-          <folding>
-            <element signature="e#14#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/Cellar/go/1.12.6/libexec/src/database/sql/sql.go" />
     <entry file="file://$PROJECT_DIR$/server/models/transaction.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -636,25 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ethwatcher/log.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="e#20#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ethwatcher/btec.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <folding>
-            <element signature="e#20#98#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leven.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -665,13 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ethwatcher/utils.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/watcher/block.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -679,40 +677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/watcher/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="156" column="40" selection-start-line="156" selection-start-column="33" selection-end-line="156" selection-end-column="40" />
-          <folding>
-            <element signature="e#14#542#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///go/pkg/mod/github.com/ethereum/go-ethereum@v1.8.27/ethdb/interface.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ethwatcher/structs.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="15" />
-          <folding>
-            <element signature="e#20#85#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/math/big/int.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#231#278#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,22 +694,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ethwatcher/ethclient.go">
+    <entry file="file://$PROJECT_DIR$/server/watcher/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="156" column="34" selection-start-line="156" selection-start-column="34" selection-end-line="156" selection-end-column="34" />
+        <state relative-caret-position="360">
+          <caret line="156" column="40" selection-start-line="156" selection-start-column="33" selection-end-line="156" selection-end-column="40" />
           <folding>
-            <element signature="e#878#1620#0" expanded="true" />
+            <element signature="e#14#542#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ethwatcher/config.toml.t">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ethwatcher/btec.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#20#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ethwatcher/GatewayVote.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5119" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ethwatcher/log.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="e#20#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ethwatcher/utils.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ethwatcher/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="182">
+            <caret line="226" column="14" selection-start-line="226" selection-start-column="4" selection-end-line="226" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ethwatcher/remotesign.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1621">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ethwatcher/structs.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="e#20#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.12/libexec/src/math/big/int.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+          <folding>
+            <element signature="e#231#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ethwatcher/constant.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ww.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="425">
+          <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
           <folding>
             <element signature="e#14#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ethwatcher/ethclient.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="1084" column="30" selection-start-line="1084" selection-start-column="30" selection-end-line="1084" selection-end-column="30" />
+          <folding>
+            <element signature="e#878#1620#0" expanded="true" />
           </folding>
         </state>
       </provider>

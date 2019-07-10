@@ -154,7 +154,7 @@ func (ec *Client) ReviewBlock(start big.Int, ch chan<- *big.Int) {
 	}()
 }
 
-func (ec *Client) StartWatchBlock( heightCh chan<- *big.Int) {
+func (ec *Client) StartWatchBlock(start big.Int, heightCh chan<- *big.Int) {
 	wCh := make(chan *rpcHeader, 1000)
 	rCh := make(chan *big.Int, 1000)
 	sub, err := ec.SubscribeNewHead(ensureContext(nil), wCh)
@@ -1072,9 +1072,9 @@ func (ec *Client) pushTranxEvent(tranxes *[]*rpcTx, startIx int, eventCh chan<- 
 
 func (ec *Client) StartWatch(start big.Int, tranxIx int, eventCh chan<- *PushEvent) {
 	blkCh := make(chan *big.Int, 1000)
-	ec.StartWatchBlock( blkCh)
+	ec.StartWatchBlock(start, blkCh)
 
-	ec.InitMapInfo()
+	//ec.InitMapInfo()
 
 	ctx := ensureContext(nil)
 	go func() {
@@ -1082,6 +1082,7 @@ func (ec *Client) StartWatch(start big.Int, tranxIx int, eventCh chan<- *PushEve
 			select {
 			case blkHeight := <-blkCh:
 				blockInfo, err := ec.BlockByNumber(ctx, blkHeight)
+				fmt.Printf("%s",blockInfo)
 				if err != nil {
 					ewLogger.Error("ethwatcher StartWatch, get block info error", "height", blkHeight.Uint64(), "error", err.Error())
 					break

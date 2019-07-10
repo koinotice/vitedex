@@ -153,7 +153,8 @@ func main() {
 	}
 
 	fmt.Print("server start as  %s", startFromBlock)
-	err = w.RunTillExitFromBlock(startFromBlock)
+	//err = w.RunTillExitFromBlock(startFromBlock)
+	err = w.RunTillExitFromBlock(4709410)
 	if err != nil {
 		utils.Infof("Watcher Exit with err: %s", err)
 	} else {

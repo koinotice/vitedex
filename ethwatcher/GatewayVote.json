@@ -1,0 +1,865 @@
+[
+  {
+    "stateMutability": "view",
+    "constant": true,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "operation",
+        "type": "uint256"
+      },
+      {
+        "name": "voter",
+        "type": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "name": "hasConfirmed",
+    "payable": false
+  },
+  {
+    "stateMutability": "nonpayable",
+    "constant": false,
+    "type": "function",
+    "inputs": [
+      {   
+        "name": "wad",
+        "type": "uint64"
+      },  
+      {   
+        "name": "receiver",
+        "type": "string"
+      }   
+    ],  
+    "outputs": [], 
+    "name": "burn",
+    "payable": false
+  }, 
+  {
+    "stateMutability": "view",
+    "constant": true,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "code",
+        "type": "uint32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "name": "isChainCode",
+    "payable": false
+  },
+  {
+    "stateMutability": "nonpayable",
+    "constant": false,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "operation",
+        "type": "uint256"
+      }
+    ],
+    "outputs": [],
+    "name": "revoke",
+    "payable": false
+  },
+  {
+    "stateMutability": "nonpayable",
+    "constant": false,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "proposal",
+        "type": "string"
+      }
+    ],
+    "outputs": [],
+    "name": "start",
+    "payable": false
+  },
+  {
+    "stateMutability": "nonpayable",
+    "constant": false,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "app",
+        "type": "address"
+      },
+      {
+        "name": "chain",
+        "type": "uint32"
+      },
+      {
+        "name": "token",
+        "type": "uint32"
+      },
+      {
+        "name": "proposal",
+        "type": "string"
+      }
+    ],
+    "outputs": [],
+    "name": "addApp",
+    "payable": false
+  },
+  {
+    "stateMutability": "nonpayable",
+    "constant": false,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "from",
+        "type": "address"
+      },
+      {
+        "name": "receiver",
+        "type": "string"
+      },
+      {
+        "name": "wad",
+        "type": "uint64"
+      }
+    ],
+    "outputs": [],
+    "name": "burnForGateway",
+    "payable": false
+  },
+  {
+    "stateMutability": "view",
+    "constant": true,
+    "type": "function",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint32"
+      }
+    ],
+    "name": "mMaxAppCode",
+    "payable": false
+  },
+  {
+    "stateMutability": "view",
+    "constant": true,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "code",
+        "type": "uint32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "string"
+      }
+    ],
+    "name": "getChainName",
+    "payable": false
+  },
+  {
+    "stateMutability": "view",
+    "constant": true,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "app",
+        "type": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint32"
+      }
+    ],
+    "name": "getAppCode",
+    "payable": false
+  },
+  {
+    "stateMutability": "view",
+    "constant": true,
+    "type": "function",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint32"
+      }
+    ],
+    "name": "mMaxChainCode",
+    "payable": false
+  },
+  {
+    "stateMutability": "nonpayable",
+    "constant": false,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "appCode",
+        "type": "uint32"
+      },
+      {
+        "name": "newer",
+        "type": "address"
+      },
+      {
+        "name": "proposal",
+        "type": "string"
+      }
+    ],
+    "outputs": [],
+    "name": "changeGatewayAddr",
+    "payable": false
+  },
+  {
+    "stateMutability": "nonpayable",
+    "constant": false,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "proposal",
+        "type": "string"
+      }
+    ],
+    "outputs": [],
+    "name": "stop",
+    "payable": false
+  },
+  {
+    "stateMutability": "view",
+    "constant": true,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "code",
+        "type": "uint32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "getAppAddress",
+    "payable": false
+  },
+  {
+    "stateMutability": "view",
+    "constant": true,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "code",
+        "type": "uint32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "name": "isAppCode",
+    "payable": false
+  },
+  {
+    "stateMutability": "view",
+    "constant": true,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "addr",
+        "type": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "name": "isCaller",
+    "payable": false
+  },
+  {
+    "stateMutability": "view",
+    "constant": true,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "code",
+        "type": "uint32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint32"
+      }
+    ],
+    "name": "getAppTokenCode",
+    "payable": false
+  },
+  {
+    "stateMutability": "nonpayable",
+    "constant": false,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "code",
+        "type": "uint32"
+      },
+      {
+        "name": "proposal",
+        "type": "string"
+      }
+    ],
+    "outputs": [],
+    "name": "removeApp",
+    "payable": false
+  },
+  {
+    "stateMutability": "view",
+    "constant": true,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "code",
+        "type": "uint32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint32"
+      }
+    ],
+    "name": "getAppChainCode",
+    "payable": false
+  },
+  {
+    "stateMutability": "view",
+    "constant": true,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "code",
+        "type": "uint32"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      },
+      {
+        "name": "",
+        "type": "uint32"
+      },
+      {
+        "name": "",
+        "type": "uint32"
+      }
+    ],
+    "name": "getAppInfo",
+    "payable": false
+  },
+  {
+    "stateMutability": "view",
+    "constant": true,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "voter",
+        "type": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "name": "isVoter",
+    "payable": false
+  },
+  {
+    "stateMutability": "nonpayable",
+    "constant": false,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "chain",
+        "type": "string"
+      },
+      {
+        "name": "proposal",
+        "type": "string"
+      }
+    ],
+    "outputs": [],
+    "name": "addChain",
+    "payable": false
+  },
+  {
+    "stateMutability": "view",
+    "constant": true,
+    "type": "function",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "name": "mStopped",
+    "payable": false
+  },
+  {
+    "stateMutability": "nonpayable",
+    "constant": false,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "appCode",
+        "type": "uint32"
+      },
+      {
+        "name": "wad",
+        "type": "uint64"
+      },
+      {
+        "name": "receiver",
+        "type": "address"
+      },
+      {
+        "name": "proposal",
+        "type": "string"
+      }
+    ],
+    "outputs": [],
+    "name": "mintByGateway",
+    "payable": false
+  },
+  {
+    "stateMutability": "view",
+    "constant": true,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "app",
+        "type": "address"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "name": "isApper",
+    "payable": false
+  },
+  {
+    "stateMutability": "view",
+    "constant": true,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "chain",
+        "type": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint32"
+      }
+    ],
+    "name": "getChainCode",
+    "payable": false
+  },
+  {
+    "stateMutability": "view",
+    "constant": true,
+    "type": "function",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "mNumVoters",
+    "payable": false
+  },
+  {
+    "stateMutability": "nonpayable",
+    "constant": false,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "older",
+        "type": "address"
+      },
+      {
+        "name": "newer",
+        "type": "address"
+      },
+      {
+        "name": "proposal",
+        "type": "string"
+      }
+    ],
+    "outputs": [],
+    "name": "changeVoter",
+    "payable": false
+  },
+  {
+    "stateMutability": "nonpayable",
+    "constant": false,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "older",
+        "type": "address"
+      },
+      {
+        "name": "proposal",
+        "type": "string"
+      }
+    ],
+    "outputs": [],
+    "name": "removeVoter",
+    "payable": false
+  },
+  {
+    "stateMutability": "nonpayable",
+    "constant": false,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "newer",
+        "type": "address"
+      },
+      {
+        "name": "proposal",
+        "type": "string"
+      }
+    ],
+    "outputs": [],
+    "name": "addVoter",
+    "payable": false
+  },
+  {
+    "stateMutability": "view",
+    "constant": true,
+    "type": "function",
+    "inputs": [
+      {
+        "name": "chain",
+        "type": "string"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "name": "isChain",
+    "payable": false
+  },
+  {
+    "type": "constructor",
+    "inputs": [
+      {
+        "name": "voters",
+        "type": "address[]"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "payable": false
+  },
+  {
+    "anonymous": false,
+    "type": "event",
+    "inputs": [
+      {
+        "indexed": true,
+        "type": "uint256",
+        "name": "operation"
+      }
+    ],
+    "name": "Stopped"
+  },
+  {
+    "anonymous": false,
+    "type": "event",
+    "inputs": [
+      {
+        "indexed": true,
+        "type": "uint256",
+        "name": "operation"
+      }
+    ],
+    "name": "Started"
+  },
+  {
+    "anonymous": false,
+    "type": "event",
+    "inputs": [
+      {
+        "indexed": false,
+        "type": "address",
+        "name": "voter"
+      },
+      {
+        "indexed": true,
+        "type": "uint256",
+        "name": "operation"
+      }
+    ],
+    "name": "Confirmation"
+  },
+  {
+    "anonymous": false,
+    "type": "event",
+    "inputs": [
+      {
+        "indexed": false,
+        "type": "address",
+        "name": "voter"
+      },
+      {
+        "indexed": true,
+        "type": "uint256",
+        "name": "operation"
+      }
+    ],
+    "name": "OperationDone"
+  },
+  {
+    "anonymous": false,
+    "type": "event",
+    "inputs": [
+      {
+        "indexed": false,
+        "type": "address",
+        "name": "revoker"
+      },
+      {
+        "indexed": true,
+        "type": "uint256",
+        "name": "operation"
+      }
+    ],
+    "name": "Revoke"
+  },
+  {
+    "anonymous": false,
+    "type": "event",
+    "inputs": [
+      {
+        "indexed": false,
+        "type": "address",
+        "name": "oldVoter"
+      },
+      {
+        "indexed": false,
+        "type": "address",
+        "name": "newVoter"
+      },
+      {
+        "indexed": true,
+        "type": "uint256",
+        "name": "operation"
+      }
+    ],
+    "name": "VoterChanged"
+  },
+  {
+    "anonymous": false,
+    "type": "event",
+    "inputs": [
+      {
+        "indexed": false,
+        "type": "address",
+        "name": "newVoter"
+      },
+      {
+        "indexed": true,
+        "type": "uint256",
+        "name": "operation"
+      }
+    ],
+    "name": "VoterAdded"
+  },
+  {
+    "anonymous": false,
+    "type": "event",
+    "inputs": [
+      {
+        "indexed": false,
+        "type": "address",
+        "name": "oldVoter"
+      },
+      {
+        "indexed": true,
+        "type": "uint256",
+        "name": "operation"
+      }
+    ],
+    "name": "VoterRemoved"
+  },
+  {
+    "anonymous": false,
+    "type": "event",
+    "inputs": [
+      {
+        "indexed": false,
+        "type": "string",
+        "name": "chain"
+      },
+      {
+        "indexed": true,
+        "type": "uint256",
+        "name": "operation"
+      }
+    ],
+    "name": "ChainAdded"
+  },
+  {
+    "anonymous": false,
+    "type": "event",
+    "inputs": [
+      {
+        "indexed": false,
+        "type": "address",
+        "name": "app"
+      },
+      {
+        "indexed": false,
+        "type": "uint32",
+        "name": "chain"
+      },
+      {
+        "indexed": false,
+        "type": "uint32",
+        "name": "token"
+      },
+      {
+        "indexed": true,
+        "type": "uint256",
+        "name": "operation"
+      }
+    ],
+    "name": "AppAdded"
+  },
+  {
+    "anonymous": false,
+    "type": "event",
+    "inputs": [
+      {
+        "indexed": false,
+        "type": "uint32",
+        "name": "code"
+      },
+      {
+        "indexed": true,
+        "type": "uint256",
+        "name": "operation"
+      }
+    ],
+    "name": "AppRemoved"
+  },
+  {
+    "anonymous": false,
+    "type": "event",
+    "inputs": [
+      {
+        "indexed": false,
+        "type": "uint32",
+        "name": "appCode"
+      },
+      {
+        "indexed": false,
+        "type": "address",
+        "name": "receiver"
+      },
+      {
+        "indexed": false,
+        "type": "uint64",
+        "name": "wad"
+      },
+      {
+        "indexed": true,
+        "type": "uint256",
+        "name": "operation"
+      }
+    ],
+    "name": "MintByGateway"
+  },
+  {
+    "anonymous": false,
+    "type": "event",
+    "inputs": [
+      {
+        "indexed": false,
+        "type": "uint32",
+        "name": "appCode"
+      },
+      {
+        "indexed": false,
+        "type": "address",
+        "name": "from"
+      },
+      {
+        "indexed": false,
+        "type": "string",
+        "name": "receiver"
+      },
+      {
+        "indexed": false,
+        "type": "uint64",
+        "name": "wad"
+      }
+    ],
+    "name": "BurnForGateway"
+  },
+  {
+    "anonymous": false,
+    "type": "event",
+    "inputs": [
+      {
+        "indexed": false,
+        "type": "uint32",
+        "name": "appCode"
+      },
+      {
+        "indexed": false,
+        "type": "address",
+        "name": "newer"
+      },
+      {
+        "indexed": true,
+        "type": "uint256",
+        "name": "operation"
+      }
+    ],
+    "name": "GatewayAddrChanged"
+  }
+]

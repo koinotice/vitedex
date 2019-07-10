@@ -39,13 +39,14 @@ func Callback(txAndReceipt *structs.RemovableTxAndReceipt) {
 
 
 				amount, ok := plugin.HexToDecimal(log.Data)
-
+				fmt.Printf("to %s,amount %s",to,amount)
 				if ok {
 
 
 					 walletLog := models.WalletDao.FindWalletByErcAddress(to)
-					//
+					 fmt.Println(to)
 					if walletLog == nil {
+						fmt.Println("no ")
 						//utils.Debugf("Skip useless transaction %s", tx.GetHash())
 
 					} else {

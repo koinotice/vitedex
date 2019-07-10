@@ -3,32 +3,40 @@ module github.com/koinotice/vitedex
 go 1.12
 
 require (
+	github.com/allegro/bigcache v1.2.1 // indirect
+	github.com/aristanetworks/goarista v0.0.0-20190704150520-f44d68189fd7 // indirect
 	github.com/btcsuite/btcd v0.0.0-20190629003639-c26ffa870fd8
 	github.com/cevaris/ordered_map v0.0.0-20190319150403-3adeae072e73
 	github.com/davecgh/go-spew v1.1.1
+	github.com/deckarep/golang-set v1.7.1 // indirect
 	github.com/denisenkom/go-mssqldb v0.0.0-20190515213511-eb9f6a1743f3 // indirect
 	github.com/ethereum/go-ethereum v1.8.27
 	github.com/facebookgo/stack v0.0.0-20160209184415-751773369052 // indirect
 	github.com/go-redis/redis v6.15.2+incompatible
 	github.com/gorilla/websocket v1.4.0
+	github.com/inconshreveable/log15 v0.0.0-20180818164646-67afb5ed74ec
 	github.com/jarcoal/httpmock v1.0.4 // indirect
 	github.com/jinzhu/gorm v1.9.8
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.0.1 // indirect
 	github.com/joho/godotenv v1.3.0
-	github.com/kr/pretty v0.1.0 // indirect
 	github.com/labstack/gommon v0.2.8
 	github.com/lib/pq v1.1.1 // indirect
 	github.com/mattn/go-colorable v0.1.2 // indirect
 	github.com/mattn/go-sqlite3 v1.10.0
 	github.com/onrik/ethrpc v0.0.0-20190305112807-6b8e9c0e9a8f
+	github.com/pborman/uuid v1.2.0 // indirect
 	github.com/petar/GoLLRB v0.0.0-20190514000832-33fb24c13b99
+	github.com/rjeczalik/notify v0.9.2 // indirect
 	github.com/robert-zaremba/errstack v3.1.0+incompatible
+	github.com/rs/cors v1.6.0 // indirect
 	github.com/satori/go.uuid v1.2.0
 	github.com/scale-it/checkers v1.0.0 // indirect
 	github.com/shopspring/decimal v0.0.0-20180709203117-cd690d0c9e24
 	github.com/sirupsen/logrus v1.4.1
+	github.com/spf13/viper v1.4.0
 	github.com/stretchr/testify v1.2.2
+	github.com/syndtr/goleveldb v1.0.0
 	github.com/tidwall/gjson v1.2.1
 	github.com/tidwall/match v1.0.1 // indirect
 	github.com/tidwall/pretty v1.0.0 // indirect

@@ -1,7 +1,6 @@
 package models
 
 import (
-	//"database/sql"
 	"fmt"
 	"time"
 )
@@ -41,10 +40,9 @@ type walletDaoPG struct {
 func (walletDaoPG) FindWalletByErcAddress(address string) *Wallet {
 	var wallet Wallet
 
-	fmt.Print("fuck")
-	fmt.Print(address)
+	fmt.Printf("asdf %s",address)
 	DB.Where("eth_address = ?", address).First(&wallet)
-
+	fmt.Print(wallet.ViteAddress)
 	if wallet.EthAddress == "" {
 		return nil
 	}

@@ -1,7 +1,7 @@
 package rpc
 
 import (
-	"github.com/keven/leven/genv/sdk"
+	"github.com/koinotice/vitedex/genv/sdk"
 	"time"
 )
 

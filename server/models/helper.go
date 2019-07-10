@@ -1,8 +1,8 @@
 package models
 
 import (
-	"github.com/keven/leven/genv/common"
-	"github.com/keven/leven/genv/utils"
+	"github.com/koinotice/vitedex/genv/common"
+	"github.com/koinotice/vitedex/genv/utils"
 )
 
 func UpdateLaunchLogToPending(launchLog *LaunchLog) (err error) {

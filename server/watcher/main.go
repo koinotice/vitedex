@@ -3,21 +3,21 @@ package main
 import (
 	"fmt"
 	_ "github.com/joho/godotenv/autoload"
- 	"github.com/keven/leven/server"
-	"github.com/keven/leven/server/dex"
-	"github.com/keven/leven/watch"
+ 	"github.com/koinotice/vitedex/server"
+	"github.com/koinotice/vitedex/server/dex"
+	"github.com/koinotice/vitedex/watch"
 
 	"context"
 	"encoding/json"
-	"github.com/keven/leven/plugin"
-	"github.com/keven/leven/structs"
+	"github.com/koinotice/vitedex/plugin"
+	"github.com/koinotice/vitedex/structs"
 	"strconv"
 
-	"github.com/keven/leven/genv/common"
-	"github.com/keven/leven/genv/sdk"
-	"github.com/keven/leven/genv/utils"
-	"github.com/keven/leven/server/connection"
-	"github.com/keven/leven/server/models"
+	"github.com/koinotice/vitedex/genv/common"
+	"github.com/koinotice/vitedex/genv/sdk"
+	"github.com/koinotice/vitedex/genv/utils"
+	"github.com/koinotice/vitedex/server/connection"
+	"github.com/koinotice/vitedex/server/models"
 
 	"os"
 )

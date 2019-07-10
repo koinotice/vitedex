@@ -1,9 +1,9 @@
 package plugin
 
 import (
-	"github.com/keven/leven/genv/sdk"
-	"github.com/keven/leven/genv/sdk/ethereum"
-	"github.com/keven/leven/structs"
+	"github.com/koinotice/vitedex/genv/sdk"
+	"github.com/koinotice/vitedex/genv/sdk/ethereum"
+	"github.com/koinotice/vitedex/structs"
 	"math/big"
 
 	"github.com/shopspring/decimal"

@@ -3,9 +3,9 @@ package watch
 import (
 	"context"
 	"fmt"
-	"github.com/keven/leven/genv/sdk"
-	"github.com/keven/leven/plugin"
-	"github.com/keven/leven/structs"
+	"github.com/koinotice/vitedex/genv/sdk"
+	"github.com/koinotice/vitedex/plugin"
+	"github.com/koinotice/vitedex/structs"
 	"github.com/labstack/gommon/log"
 	"github.com/shopspring/decimal"
 	"testing"

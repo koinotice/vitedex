@@ -2,7 +2,7 @@ package models
 
 import (
 	"database/sql"
-	"github.com/keven/leven/genv/common"
+	"github.com/koinotice/vitedex/genv/common"
 	"github.com/satori/go.uuid"
 	"github.com/stretchr/testify/assert"
 	"testing"

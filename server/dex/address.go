@@ -2,11 +2,11 @@ package dex
 
 import (
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/keven/leven/plugin"
-	"github.com/keven/leven/structs"
+	"github.com/koinotice/vitedex/plugin"
+	"github.com/koinotice/vitedex/structs"
 	"strings"
 	"fmt"
-	eth "github.com/keven/leven/ethereum"
+	eth "github.com/koinotice/vitedex/ethereum"
 )
 type Dex struct {
 

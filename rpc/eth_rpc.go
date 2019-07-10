@@ -1,8 +1,8 @@
 package rpc
 
 import (
-	"github.com/keven/leven/genv/sdk"
-	"github.com/keven/leven/genv/sdk/ethereum"
+	"github.com/koinotice/vitedex/genv/sdk"
+	"github.com/koinotice/vitedex/genv/sdk/ethereum"
 	"github.com/onrik/ethrpc"
 )
 

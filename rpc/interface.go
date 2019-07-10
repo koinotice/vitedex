@@ -1,6 +1,6 @@
 package rpc
 
-import "github.com/keven/leven/genv/sdk"
+import "github.com/koinotice/vitedex/genv/sdk"
 
 type IBlockChainRPC interface {
 	GetCurrentBlockNum() (uint64, error)

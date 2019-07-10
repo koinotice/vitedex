@@ -1,6 +1,6 @@
 package structs
 
-import "github.com/keven/leven/genv/sdk"
+import "github.com/koinotice/vitedex/genv/sdk"
 
 type RemovableBlock struct {
 	sdk.Block

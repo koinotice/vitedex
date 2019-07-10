@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/keven/leven/genv/utils"
+	"github.com/koinotice/vitedex/genv/utils"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"testing"

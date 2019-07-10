@@ -1,4 +1,4 @@
-module github.com/keven/leven
+module github.com/koinotice/vitedex
 
 go 1.12
 
@@ -36,7 +36,7 @@ require (
 	golang.org/x/crypto v0.0.0-20190325154230-a5d413f7728c
 )
 
-// replace github.com/keven/leven/genv => ../hydro-sdk-backend
+// replace github.com/koinotice/vitedex/genv => ../hydro-sdk-backend
 replace (
 	github.com/Sirupsen/logrus => github.com/sirupsen/logrus v1.4.2
 	github.com/golang/lint => github.com/golang/lint v0.0.0-20190227174305-8f45f776aaf1

@@ -3,19 +3,19 @@ package main
 import (
 	"context"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/keven/leven/genv/sdk/ethereum"
-	"github.com/keven/leven/plugin"
-	"github.com/keven/leven/structs"
+	"github.com/koinotice/vitedex/genv/sdk/ethereum"
+	"github.com/koinotice/vitedex/plugin"
+	"github.com/koinotice/vitedex/structs"
 	"strings"
 
-	//"github.com/keven/leven/genv/sdk"
+	//"github.com/koinotice/vitedex/genv/sdk"
 	//"context"
 	"fmt"
- 	watch "github.com/keven/leven/watch"
-	//"github.com/keven/leven/plugin"
+ 	watch "github.com/koinotice/vitedex/watch"
+	//"github.com/koinotice/vitedex/plugin"
 	//
 	//"github.com/shopspring/decimal"
-	 eth "github.com/keven/leven/ethereum"
+	 eth "github.com/koinotice/vitedex/ethereum"
 
 
 )

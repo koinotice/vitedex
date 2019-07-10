@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/keven/leven/genv/common"
+	"github.com/koinotice/vitedex/genv/common"
 	uuid2 "github.com/satori/go.uuid"
 	"github.com/shopspring/decimal"
 	"github.com/stretchr/testify/mock"

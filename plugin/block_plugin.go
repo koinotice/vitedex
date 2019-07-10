@@ -1,7 +1,7 @@
 package plugin
 
 import (
-	"github.com/keven/leven/structs"
+	"github.com/koinotice/vitedex/structs"
 )
 
 type IBlockPlugin interface {

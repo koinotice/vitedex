@@ -2,8 +2,8 @@ package models
 
 import (
 	"encoding/json"
-	"github.com/keven/leven/genv/common"
-	"github.com/keven/leven/genv/utils"
+	"github.com/koinotice/vitedex/genv/common"
+	"github.com/koinotice/vitedex/genv/utils"
 	"github.com/shopspring/decimal"
 	"time"
 )

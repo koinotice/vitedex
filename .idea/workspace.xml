@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7812fea6-1f77-4df9-ac25-3a73ff9bce23" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/genv/.circleci/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/common/orderbook.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/common/orderbook.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/common/queue.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/common/queue.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/engine/engine.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/engine/engine.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/engine/engine_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/engine/engine_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/engine/market_handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/engine/market_handler.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/go.mod" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/go.sum" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/launcher/launcher.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/launcher/launcher.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/launcher/signer.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/launcher/signer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/sdk/crypto/crypto.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/crypto/crypto.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/sdk/crypto/crypto_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/crypto/crypto_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/sdk/ethereum/erc20.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/ethereum/erc20.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/sdk/ethereum/ethereum.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/ethereum/ethereum.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/sdk/ethereum/ethereum_hydro_protocol.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/ethereum/ethereum_hydro_protocol.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/sdk/ethereum/ethereum_hydro_protocol_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/ethereum/ethereum_hydro_protocol_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/sdk/ethereum/ethereum_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/ethereum/ethereum_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/sdk/rlp/rlp.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/rlp/rlp.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/sdk/rlp/rlp_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/rlp/rlp_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/sdk/signer/signer.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/signer/signer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/sdk/signer/signer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/signer/signer_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/sdk/types/types_util.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/types/types_util.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/watcher/watcher.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/watcher/watcher.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/watcher/watcher_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/watcher/watcher_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/websocket/channel.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/channel.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/websocket/channel_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/channel_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/websocket/consumer.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/consumer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/websocket/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/interface.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/websocket/market_channel.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/market_channel.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/websocket/orderbook.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/orderbook.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/websocket/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/server.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/websocket/snapshot.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/snapshot.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/websocket/snapshot_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/snapshot_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/genv/websocket/websocket.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/websocket.go" afterDir="false" />
-    </list>
+    <list default="true" id="7812fea6-1f77-4df9-ac25-3a73ff9bce23" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/genv/common/kv_store.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="193">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -89,7 +49,7 @@
         <entry file="file://$PROJECT_DIR$/leven.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="12" column="9" lean-forward="true" selection-end-line="157" selection-end-column="1" />
+              <caret line="12" column="9" selection-end-line="157" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -110,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -119,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/server/dex/address.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
               <folding>
                 <element signature="e#14#412#0" expanded="true" />
               </folding>
@@ -175,7 +135,7 @@
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.12.6/libexec" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/genv" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
@@ -264,6 +224,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
@@ -272,7 +233,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
@@ -578,7 +539,7 @@
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
@@ -595,7 +556,7 @@
     <entry file="file://$PROJECT_DIR$/leven.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" column="9" lean-forward="true" selection-end-line="157" selection-end-column="1" />
+          <caret line="12" column="9" selection-end-line="157" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -629,14 +590,14 @@
     <entry file="file://$PROJECT_DIR$/genv/common/kv_store.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/dex/address.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding>
             <element signature="e#14#412#0" expanded="true" />
           </folding>

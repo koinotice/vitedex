@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7812fea6-1f77-4df9-ac25-3a73ff9bce23" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/genv/.circleci/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/common/orderbook.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/common/orderbook.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/common/queue.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/common/queue.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/engine/engine.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/engine/engine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/engine/engine_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/engine/engine_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/engine/market_handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/engine/market_handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/launcher/launcher.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/launcher/launcher.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/launcher/signer.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/launcher/signer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/sdk/crypto/crypto.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/crypto/crypto.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/sdk/crypto/crypto_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/crypto/crypto_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/sdk/ethereum/erc20.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/ethereum/erc20.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/sdk/ethereum/ethereum.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/ethereum/ethereum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/sdk/ethereum/ethereum_hydro_protocol.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/ethereum/ethereum_hydro_protocol.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/sdk/ethereum/ethereum_hydro_protocol_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/ethereum/ethereum_hydro_protocol_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/sdk/ethereum/ethereum_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/ethereum/ethereum_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/sdk/rlp/rlp.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/rlp/rlp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/sdk/rlp/rlp_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/rlp/rlp_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/sdk/signer/signer.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/signer/signer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/sdk/signer/signer_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/signer/signer_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/sdk/types/types_util.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/sdk/types/types_util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/watcher/watcher.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/watcher/watcher.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/watcher/watcher_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/watcher/watcher_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/websocket/channel.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/channel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/websocket/channel_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/channel_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/websocket/consumer.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/consumer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/websocket/interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/interface.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/websocket/market_channel.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/market_channel.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/websocket/orderbook.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/orderbook.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/websocket/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/websocket/snapshot.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/snapshot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/websocket/snapshot_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/snapshot_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/genv/websocket/websocket.go" beforeDir="false" afterPath="$PROJECT_DIR$/genv/websocket/websocket.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/watcher/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
+              <folding>
+                <element signature="e#14#607#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/genv/common/kv_store.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/structs/structs.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/connection/redis.go">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leven.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="9" lean-forward="true" selection-end-line="157" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/models/conn.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <folding>
+                <element signature="e#16#146#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/dex/address.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+              <folding>
+                <element signature="e#14#412#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/models/launch_log.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1575" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/models/balance.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="32" selection-start-line="32" selection-end-line="33" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bat</find>
+      <find>v0.0.39</find>
+      <find>ethereum</find>
+      <find>TransactionReceipt</find>
+      <find>IReceiptLog</find>
+      <find>GetTopics</find>
+      <find>Topics</find>
+      <find>HashToAddresslog</find>
+      <find>confirmed</find>
+      <find>HydroProtocol/nights-watch</find>
+      <find>HydroProtocol/hydro-sdk-backend</find>
+      <find>HydroProtocol/hydro-scaffold-dex/backend</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>keven/leven</replace>
+      <replace>keven/leven/genv</replace>
+      <replace>keven/leven/server</replace>
+    </replaceStrings>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.12.6/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/genv" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/watch/watcher.go" />
+        <option value="$PROJECT_DIR$/ethereum/address.go" />
+        <option value="$PROJECT_DIR$/go.mod" />
+        <option value="$PROJECT_DIR$/plugin/tx_receipt_plugin.go" />
+        <option value="$PROJECT_DIR$/server/signal.go" />
+        <option value="$PROJECT_DIR$/server/api/main.go" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/server/watcher/address.go" />
+        <option value="$PROJECT_DIR$/leven.go" />
+        <option value="$PROJECT_DIR$/server/common/address.go" />
+        <option value="$PROJECT_DIR$/server/utils/address.go" />
+        <option value="$PROJECT_DIR$/server/watcher/main.go" />
+        <option value="$PROJECT_DIR$/server/dex/address.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="44" />
+    <option name="y" value="23" />
+    <option name="width" value="1396" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="leven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leven" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leven" type="462c0819:PsiDirectoryNode" />
+              <item name="genv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leven" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leven" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="dex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leven" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leven" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="watcher" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leven" type="462c0819:PsiDirectoryNode" />
+              <item name="structs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leven" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/common" />
+      <recent name="$PROJECT_DIR$/watch" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="44" y="23" width="1396" height="877" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23190546" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <vendoring-mode>true</vendoring-mode>
+    <proxy>https://goproxy.io</proxy>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/HydroProtocol/hydro-sdk-backend/sdk/ethereum/ethereum.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/ethereum/go-ethereum/common/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3322">
+          <caret line="163" column="19" selection-start-line="163" selection-start-column="5" selection-end-line="163" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/block_plugin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-365" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/HydroProtocol/hydro-sdk-backend/sdk/interface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="60" column="23" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="23" />
+          <folding>
+            <element signature="e#13#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genv/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genv/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1754" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genv/go.mod">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genv/sdk/ethereum/erc20.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="115" column="4" selection-start-line="115" selection-start-column="4" selection-end-line="115" selection-end-column="4" />
+          <folding>
+            <element signature="e#18#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genv/utils/hex.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-860">
+          <folding>
+            <element signature="e#15#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genv/utils/hex_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-849" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genv/utils/json.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genv/utils/logger.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genv/utils/metrics.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genv/sdk/test_helper.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genv/utils/number.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/watch/watcher_with_tx_plugin_test.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/eth_rpc_with_retry.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-545" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/watch/watcher_with_tx_receipt_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
+          <folding>
+            <element signature="e#14#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpc/eth_rpc.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/tx_receipt_plugin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="90" column="63" selection-start-line="90" selection-start-column="52" selection-end-line="90" selection-end-column="63" />
+          <folding>
+            <element signature="e#16#232#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/onrik/ethrpc/types.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
+          <folding>
+            <element signature="e#16#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genv/sdk/interface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+          <folding>
+            <element signature="e#13#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ethereum/address.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/watch/watcher.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="372" column="37" selection-start-line="372" selection-start-column="37" selection-end-line="372" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/tx_plugin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#16#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genv/sdk/ethereum/ethereum.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="58" column="29" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/db/migrations/0001-init.up.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="75" column="4" selection-start-line="75" selection-start-column="4" selection-end-line="75" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/cli/watcher/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2552">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#14#607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.mod">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/go.sum">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/go.mod">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/cli/maker/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="5" />
+          <folding>
+            <element signature="e#14#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="16" selection-start-line="3" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/api/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#13#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/signal.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/connection/redis.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structs/structs.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leven.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="9" lean-forward="true" selection-end-line="157" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/conn.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#16#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/balance.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="32" selection-start-line="32" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/watcher/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="98" column="32" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
+          <folding>
+            <element signature="e#14#607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/genv/common/kv_store.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/dex/address.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <folding>
+            <element signature="e#14#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/models/launch_log.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1575" />
+      </provider>
+    </entry>
+  </component>
+</project>

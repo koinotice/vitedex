@@ -49,7 +49,7 @@ func (walletDaoPG) FindWalletByErcAddress(address string) *Wallet {
 		return nil
 	}
 
-	
+
 
 	return &wallet
 }
